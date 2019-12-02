@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="methods">
+	<test name="Test">
+
+
+		<groups>
+			<run>
+				<exclude name="male"></exclude>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="test.XmlTest">
+
+				<methods>
+
+					<exclude name="testlogin5"></exclude>
+
+				</methods>
+
+				<parameter name="searchname1" value="sharu"></parameter>
+				<parameter name="searchname2" value="shanu"></parameter>
+				<parameter name="searchname3" value="joase"></parameter>
+				<parameter name="searchname4" value="maria"></parameter>
+			</class>
+
+
+
+		</classes>
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

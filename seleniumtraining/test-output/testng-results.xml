@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22621" started-at="2019-11-28T10:28:19Z" finished-at="2019-11-28T10:28:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22621" started-at="2019-11-28T10:28:19Z" finished-at="2019-11-28T10:28:41Z">
+      <class name="test.WindowPopupTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.WindowPopupTest@5442a311]" name="setUp" is-config="true" duration-ms="15539" started-at="2019-11-28T10:28:19Z" finished-at="2019-11-28T10:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="alertTest()[pri:1, instance:test.WindowPopupTest@5442a311]" name="alertTest" duration-ms="7011" started-at="2019-11-28T10:28:34Z" finished-at="2019-11-28T10:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertTest -->
+      </class> <!-- test.WindowPopupTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

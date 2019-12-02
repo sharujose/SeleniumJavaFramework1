@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="3" name="Test(failed)" parallel="methods">
+    <groups>
+      <run>
+        <exclude name="male"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.XmlTest">
+        <parameter name="searchname1" value="sharu"/>
+        <parameter name="searchname2" value="shanu"/>
+        <parameter name="searchname3" value="joase"/>
+        <parameter name="searchname4" value="maria"/>
+        <methods>
+          <include name="testlogin4"/>
+          <include name="testlogin3"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test.XmlTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
